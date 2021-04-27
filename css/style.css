@@ -146,7 +146,6 @@ li.nav-item {
     background-color: black;
     /* height: 100vh; */
     height: 85vh;
-    min-height: 25rem;
     width: 100%;
     background-image: url('../images/modern-buildings jpg.png');
     background-size: cover;
@@ -165,7 +164,7 @@ li.nav-item {
     margin-bottom: 2rem;
     background: rgb(178 178 178 / 30%);
     display: inline;
-    font-size: 70px;
+    font-size: 38px;
   }
   
 header .container p {
@@ -344,7 +343,7 @@ width: 90px;
   width: 100%;
   background: #000;
   height: 124px;
-  border-radius: 14px;
+  border-radius: 2px;
   color: #fff;
   margin-bottom: 24px;
   padding: 13px;
@@ -637,7 +636,7 @@ footer{
   /* height: 150px; */
   transform: scale(1.4);
   overflow: hidden;
-  padding: 20px 158px;
+  padding: 23px 208px;
 }
 .copyright ul {
   display: inline-flex;
@@ -727,9 +726,11 @@ display: inline-block;
 }
 .about-us .right{
   text-align: right;
+  margin-bottom: 70px;
 }
 .about-us .left{
   text-align: left;
+  margin-bottom: 70px;
 }
 .about-us h1{
   font-size: 45px;
@@ -740,6 +741,14 @@ display: inline-block;
   font-size: 16px;
     font-weight: bold;
     color: #777;
+}
+.about-us u{
+  font-size: 30px;
+  color: #777;
+}
+.about-us u ~ .ul-u-sev{
+  padding: 0 29px;
+    overflow: hidden;
 }
 .about-us span.about-Services {
   font-size: 100px;
@@ -754,16 +763,22 @@ display: inline-block;
 }
 .experties .card-expertie{
   margin-top: 50px;
-  padding: 86px 10px;
+  padding: 54px 10px;
   background: #fff;
   border-radius: 10px;
 }
-.experties h2{
+.experties h2.head{
   color: #f6a612;
   border-bottom: 2px solid #f6a612;
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 34px;
+}
+.experties h2{
+  color: #000;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 18px;
 }
 .experties p{
   font-size: 20px;
@@ -820,7 +835,7 @@ display: inline-block;
   } 
   header {
     
-    height: 72vh;
+    height: 100%;
   }
   .logo img {
     width: 75px;
@@ -838,7 +853,7 @@ display: inline-block;
   .header-title.text-white {
     width: 100%;
     height: 350px;
-    top: 0;
+    top: 35px;
     left: 0;
     transform: none;
     position: relative;
@@ -921,8 +936,8 @@ footer .overflowimg .info {
   margin: 0;
 } 
 header {
-  
-  height: 72vh;
+    
+  height: 100%;
 }
 .logo img {
   width: 75px;
@@ -939,7 +954,7 @@ header {
 .header-title.text-white {
   width: 100%;
   height: 350px;
-  top: -96px;
+  top: 35px;
   left: 0;
   transform: none;
   position: relative;
@@ -1018,7 +1033,7 @@ margin-bottom: 30px;
   } 
   header {
     
-    height: 72vh;
+    height: 100%;
   }
   .logo img {
     width: 75px;
@@ -1035,7 +1050,7 @@ margin-bottom: 30px;
   .header-title.text-white {
     width: 100%;
     height: 350px;
-    top: -96px;
+    top: 35px;
     left: 0;
     transform: none;
     position: relative;
@@ -1114,8 +1129,8 @@ footer .overflowimg .info {
   margin: 0;
 } 
 header {
-  
-  height: 72vh;
+    
+  height: 100%;
 }
 .logo img {
   width: 75px;
@@ -1132,7 +1147,7 @@ header {
 .header-title.text-white {
   width: 100%;
   height: 350px;
-  top: -96px;
+  top: 35px;
   left: 0;
   transform: none;
   position: relative;
