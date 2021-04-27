@@ -733,7 +733,7 @@ display: inline-block;
   margin-bottom: 70px;
 }
 .about-us h1{
-  font-size: 45px;
+  font-size: 31px;
   font-weight: bold;
   display: inline-grid;
 }
@@ -779,6 +779,11 @@ display: inline-block;
   display: block;
   margin-bottom: 20px;
   font-size: 18px;
+}
+.experties h2.dolarcolor{
+  color: #ff3d34;
+  font-weight: 700;
+ 
 }
 .experties p{
   font-size: 20px;
@@ -911,8 +916,8 @@ footer .overflowimg .info {
   padding: 70px 0 60px 0;
 }
 .about-us h1 {
-  font-size: 32px;
-  display: table-caption;
+  font-size: 22px;
+  /* display: table-caption; */
 }
 .about-us .right {
   text-align: left;
