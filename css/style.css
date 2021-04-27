@@ -635,7 +635,7 @@ footer{
   background: #000;
   /* width: 100%; */
   /* height: 150px; */
-  transform: scale(1.3);
+  transform: scale(1.4);
   overflow: hidden;
   padding: 20px 158px;
 }
@@ -876,9 +876,9 @@ footer .overflowimg .info {
   padding: 20px 0;
   text-align: center;
 } 
-/* .copyright ul {
+.copyright ul {
   display: block;
-} */
+}
 .copyright img {
   width: 200px;
 }
@@ -977,9 +977,9 @@ overflow: hidden;
 padding: 20px 0;
 text-align: center;
 } 
-/* .copyright ul {
+.copyright ul {
 display: block;
-} */
+}
 .copyright img {
 width: 200px;
 }
@@ -1073,9 +1073,9 @@ footer .overflowimg .info {
   padding: 20px 0;
   text-align: center;
 } 
-/* .copyright ul {
+.copyright ul {
   display: block;
-} */
+}
 .copyright img {
   width: 150px;
 }
@@ -1170,9 +1170,9 @@ overflow: hidden;
 padding: 20px 0;
 text-align: center;
 } 
-/* .copyright ul {
+.copyright ul {
 display: block;
-} */
+}
 .copyright img {
 width: 150px;
 }
