@@ -206,10 +206,40 @@ header .container p {
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: #64257D }
+    background: #222222 }
     
-  
-  #ftco-loader.show {
+#ftco-loader img {
+     width: 200px;
+     margin-top: 0px;
+     background-size: cover;
+     top: 10%;
+     left: 50%;
+     position: absolute;
+     animation: 1.5s ease-in-out 0s infinite normal none running loaderimg;
+}
+@keyframes  loaderimg {
+  0% {
+     transform: translate(-50%, 100%) scale(1);
+     -webkit-transition: opacity .7s ease-out, visibility .7s linear .7s;
+     -o-transition: opacity .7s ease-out, visibility .7s linear .7s;
+     transition: opacity .7s ease-out, visibility .7s linear .7s;
+     }
+     25%{
+      transform: translate(-50%, 100%) scale(1.2);
+      -webkit-transition: opacity .7s ease-out, visibility .7s linear .7s;
+      -o-transition: opacity .7s ease-out, visibility .7s linear .7s;
+      transition: opacity .7s ease-out, visibility .7s linear .7s;
+     }
+  100% { 
+    transform: translate(-50%, 100%) scale(1);
+    -webkit-transition: opacity .7s ease-out, visibility .7s linear .7s;
+    -o-transition: opacity .7s ease-out, visibility .7s linear .7s;
+    transition: opacity .7s ease-out, visibility .7s linear .7s;
+   }
+}
+
+
+   #ftco-loader.show {
     -webkit-transition: opacity .4s ease-out, visibility 0s linear 0s;
     -o-transition: opacity .4s ease-out, visibility 0s linear 0s;
     transition: opacity .4s ease-out, visibility 0s linear 0s;
@@ -234,11 +264,12 @@ header .container p {
     animation: loader-dash 1.5s ease-in-out infinite;
     stroke-linecap: round; }
   
-  @-webkit-keyframes loader-rotate {
+ /* @-webkit-keyframes loader-rotate {
     100% {
       -webkit-transform: rotate(360deg);
-      transform: rotate(360deg); } }
-  
+      transform: rotate(360deg); } 
+    
+    }
   @keyframes loader-rotate {
     100% {
       -webkit-transform: rotate(360deg);
@@ -266,7 +297,7 @@ header .container p {
       stroke-dasharray: 89, 200;
       stroke-dashoffset: -136px; } }
   
-  
+   */
 /*loading*/
 
 .logo{
@@ -927,6 +958,16 @@ footer .overflowimg .info {
   display: none;
 }
 /* End about */
+#ftco-loader img {
+  width: 200px;
+  /* margin-top: 0; */
+  background-size: cover;
+  transform: none;
+  top: 0;
+  left: 50%;
+  position: absolute;
+  animation: loaderimg 1.5s ease-in-out infinite;
+}
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
 
@@ -1024,6 +1065,16 @@ margin-bottom: 30px;
   display: none;
 }
 /* End about */
+#ftco-loader img {
+  width: 200px;
+  /* margin-top: 0; */
+  background-size: cover;
+  transform: none;
+  top: 0;
+  left: 50%;
+  position: absolute;
+  animation: loaderimg 1.5s ease-in-out infinite;
+}
 }
   @media (min-width: 768px) and (max-width: 991.98px) {
     nav {
@@ -1120,6 +1171,17 @@ footer .overflowimg .info {
   display: none;
 }
 /* End about */
+
+#ftco-loader img {
+  width: 200px;
+  /* margin-top: 0; */
+  background-size: cover;
+  transform: none;
+  top: 0;
+  left: 50%;
+  position: absolute;
+  animation: loaderimg 1.5s ease-in-out infinite;
+}
 }
 @media (min-width: 992px) and (max-width: 1199.98px) { 
   
@@ -1221,4 +1283,49 @@ margin-bottom: 30px;
   font-size: 17px;
   margin-bottom: 80px;
 }
+#ftco-loader img {
+  width: 200px;
+  /* margin-top: 0; */
+  background-size: cover;
+  transform: none;
+  top: 0;
+  left: 50%;
+  position: absolute;
+  animation: loaderimg 1.5s ease-in-out infinite;
+}
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
